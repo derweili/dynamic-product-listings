@@ -1,0 +1,20 @@
+{
+    "name": "derweili/dynamic-product-listing",
+    "description": "Dynamic Product Listing for WooCommerce",
+    "type": "wordpress-plugin",
+    "license": "GLP 2",
+    "authors": [
+        {
+            "name": "derweili",
+            "email": "jw@derweili.de"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+          "Derweili\\DynamicProductListing\\": "inc/"
+        }
+    }
+}
